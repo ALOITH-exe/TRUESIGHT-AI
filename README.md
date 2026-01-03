@@ -5,31 +5,30 @@ The project combines Artificial Intelligence and Cybersecurity concepts to analy
 
 🚀 Features
 
-Real-time webcam detection
-
-Multi-model YOLOv8 architecture
-
-Detection of:
-  
-  Suspicious luggage
-  
-  Weapons
-  
-  Victims
-  
-  Suspects
-  
-  Confidence threshold filtering
-  
-  FPS optimization
-  
-  Color-coded bounding boxes
-  
-  Overlapping box merging (NMS)
-
-Modular and scalable design
+		Real-time webcam detection
+	
+		Multi-model YOLOv8 architecture
+		
+		Detection of:
+	  
+		  Suspicious luggage
+		  
+		  Weapons
+		  
+		  Victims
+		  
+		  Suspects
+			
+	  Confidence threshold filtering
+		
+	  FPS optimization
+		
+	  Color-coded bounding boxes
+		
+	  Overlapping box merging (NMS)
 
 🧠 System Architecture
+
     Webcam Input
          ↓
     Multiple YOLOv8 Models
@@ -41,27 +40,40 @@ Modular and scalable design
     Unified Detection Output
 
 📁 Project Structure
+
 TRUESIGHT_AI/
+
 ├── src/                 # Detection scripts
+
 ├── data/                # Sample test images
+
 ├── models/              # Trained YOLOv8 models (not included)
+
 ├── results/             # Output results
+
 ├── requirements.txt
+
 └── README.md
 
+
 ⚙️ Installation
+
 1️⃣ Clone the repository
+
 git clone https://github.com/YOUR_USERNAME/TRUESIGHT-AI.git
 cd TRUESIGHT-AI
 
 2️⃣ Create virtual environment
+
 python3 -m venv venv
 source venv/bin/activate
 
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 ▶️ Usage
+
 Live Webcam Detection (Optimized Multi-Model)
 cd src
 python detect_webcam_multi_opt_nms.py
@@ -75,17 +87,17 @@ Place your trained .pt files inside the models/ directory.
 
 📊 Technologies Used
   
-  Python
-  
-  YOLOv8 (Ultralytics)
-  
-  OpenCV
-  
-  NumPy
-  
-  Google Colab (Model Training)
-  
-  Roboflow (Dataset Preparation)
+	  Python
+	  
+	  YOLOv8 (Ultralytics)
+	  
+	  OpenCV
+	  
+	  NumPy
+	  
+	  Google Colab (Model Training)
+	  
+	  Roboflow (Dataset Preparation)
 
 🎓 Academic Context
 
@@ -93,18 +105,20 @@ This project was developed as a semester project for the Artificial Intelligence
 
 🔮 Future Enhancements
 
-  Video file detection
-  
-  Alert system (email/SMS)
-  
-  Cloud deployment
-  
-  Model fusion into a single unified model
-  
-  Threat severity scoring
+	  Video file detection
+	  
+	  Alert system (email/SMS)
+	  
+	  Cloud deployment
+	  
+	  Model fusion into a single unified model
+	  
+	  Threat severity scoring
 
 👤 Author
 
 ALOITH
+
 Cyber Security Student
+
 Artificial Intelligence & Security Enthusiast
