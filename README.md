@@ -3,21 +3,21 @@
 TRUESIGHT AI is a computer vision–based security system that detects suspicious objects and activities in real time using YOLOv8.
 The project combines Artificial Intelligence and Cybersecurity concepts to analyze live camera feeds and identify potential threats such as weapons, unattended luggage, suspects, and victims.
 
-Features
+🚀 Features
 
-  Real-time webcam detection
+Real-time webcam detection
+
+Multi-model YOLOv8 architecture
+
+Detection of:
   
-  Multi-model YOLOv8 architecture
+  Suspicious luggage
   
-  Detection of:
+  Weapons
   
-    Suspicious luggage
+  Victims
   
-    Weapons
-  
-    Victims
-  
-    Suspects
+  Suspects
   
   Confidence threshold filtering
   
@@ -26,19 +26,19 @@ Features
   Color-coded bounding boxes
   
   Overlapping box merging (NMS)
-  
-  Modular and scalable design
+
+Modular and scalable design
 
 🧠 System Architecture
-      Webcam Input
-           ↓
-      Multiple YOLOv8 Models
-           ↓
-      Confidence Filtering
-           ↓
-      Non-Maximum Suppression
-           ↓
-      Unified Detection Output
+    Webcam Input
+         ↓
+    Multiple YOLOv8 Models
+         ↓
+    Confidence Filtering
+         ↓
+    Non-Maximum Suppression
+         ↓
+    Unified Detection Output
 
 📁 Project Structure
 TRUESIGHT_AI/
@@ -74,7 +74,7 @@ Trained YOLOv8 models are not included due to size constraints.
 Place your trained .pt files inside the models/ directory.
 
 📊 Technologies Used
-
+  
   Python
   
   YOLOv8 (Ultralytics)
