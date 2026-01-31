@@ -31,36 +31,19 @@ The project combines Artificial Intelligence and Cybersecurity concepts to analy
 
     Webcam Input
          ↓
-    Multiple YOLOv8 Models
+    YOLOv8 Model
          ↓
     Confidence Filtering
          ↓
     Non-Maximum Suppression
          ↓
-    Unified Detection Output
-
-📁 Project Structure
-
-TRUESIGHT_AI/
-
-├── src/                 # Detection scripts
-
-├── data/                # Sample test images
-
-├── models/              # Trained YOLOv8 models (not included)
-
-├── results/             # Output results
-
-├── requirements.txt
-
-└── README.md
-
+    Detection Output
 
 ⚙️ Installation
 
 1️⃣ Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/TRUESIGHT-AI.git
+git clone https://github.com/ALOITH-exe/TRUESIGHT-AI.git
 cd TRUESIGHT-AI
 
 2️⃣ Create virtual environment
@@ -74,16 +57,14 @@ pip install -r requirements.txt
 
 ▶️ Usage
 
-Live Webcam Detection (Optimized Multi-Model)
-cd src
-python detect_webcam_multi_opt_nms.py
+cd gui
+python main.py
 
 Press q to quit the webcam feed.
 
 🧪 Models
 
-Trained YOLOv8 models are not included due to size constraints.
-Place your trained .pt files inside the models/ directory.
+Two Trained Models are included.
 
 📊 Technologies Used
   
@@ -95,7 +76,7 @@ Place your trained .pt files inside the models/ directory.
 	  
 	  NumPy
 	  
-	  Google Colab (Model Training)
+	  Kaggle Notebook (Model Training)
 	  
 	  Roboflow (Dataset Preparation)
 
