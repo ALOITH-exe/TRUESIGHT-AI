@@ -1,0 +1,12 @@
+path: /content/TRUESIGHT_AI/data
+train: images
+val: images
+
+nc: 5    
+names:
+  - normal-action
+  - suspicious-suspect
+  - victim
+  - weapon
+  - luggage 
+
